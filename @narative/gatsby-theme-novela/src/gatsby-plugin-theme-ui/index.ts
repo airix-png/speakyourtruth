@@ -25,6 +25,7 @@ const colorModeTransition =
 
 export default merge({
   initialColorModeName: 'dark',
+  useColorSchemeMediaQuery: true,
   useCustomProperties: true,
   colorModeTransition,
   colors,
