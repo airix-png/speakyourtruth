@@ -20,6 +20,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { graphql, useStaticQuery } from 'gatsby';
+import picture from './theme.jpg'
 
 interface HelmetProps {
   title: string;
@@ -95,7 +96,7 @@ const SEO: React.FC<HelmetProps> = ({
   }
 
   // If no image is provided lets looks for a default novela static image
-  image = image ? './theme.jpg' : image ;
+  image = image ? picture : image ;
 
   const metaTags = [
     { charset: 'utf-8' },
