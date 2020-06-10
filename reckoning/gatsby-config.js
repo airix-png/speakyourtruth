@@ -9,7 +9,7 @@ const siteMetadata = {
   title: `Speak Your Truth`,
     name: `PNG x Yonko Productions`,
     siteUrl: `https://speakyourtruth.me`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.`,
     hero: {
       heading: `A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society. 
       `,
