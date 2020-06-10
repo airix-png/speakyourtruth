@@ -5,7 +5,6 @@ import styled from '@emotion/styled';
 import Section from '@components/Section';
 import Bio from '@components/Bio';
 import Carousel from '@components/Carousel/carousel'
-import Video from '@components/Video/video'
 import Icons from '@icons';
 import mediaqueries from '@styles/media';
 import { IAuthor } from '@types';

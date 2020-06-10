@@ -28,7 +28,6 @@ class SimpleSlider extends React.Component {
     var settings = {
       dots: true,
       infinite: true,
-      fade: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -40,7 +39,7 @@ class SimpleSlider extends React.Component {
       <Slider ref={slider => (this.slider = slider)} {...settings}>
         <div>
           <Video
-        videoSrcURL="https://www.youtube.com/embed/rtTIx9vG4CM" target="_blank"
+        videoSrcURL="https://www.youtube.com/embed/rtTIx9vG4CM" 
         videoTitle="No Justice, No Peace by New Pixel Films"
       />
       <p className="newpixel">'No Justice, No Peace' - <a href="http://instagram.com/newpixelfilms" target="_blank">New Pixel Films</a></p><br/>

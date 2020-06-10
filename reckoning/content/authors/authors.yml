@@ -1,6 +1,6 @@
 - name: Speak Your Truth 
   bio: |
-    <strong>SYT BLOG:</strong> To amplify voices and serve as a guide to sources of credible information.                          
+    \SYT BLOG: To amplify voices and serve as a guide to sources of credible information.                          
     
   avatar: ./avatars/text.png
   social:

@@ -57,6 +57,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({
             target="_blank"
             rel="noopener nofollow"
             data-a11y="false"
+            title={`Link to ${option.url}`}
             aria-label={`Link to ${option.url}`}
             href={option.url}
           >
