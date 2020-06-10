@@ -156,7 +156,7 @@ const NavigationHeader: React.FC<{}> = () => {
                 <a href="http://speakyourtruth.shop" target="_blank" title="To Whom It May Concern Shirt">
                 <ShopLogo fill={fill} /></a></LogoLink2>
                 <LogoLink2>
-                <a href="https://forms.gle/dHhcippCB7kGT83S6" target="_blank" title="Share Your Voice">
+                <a href="https://formfacade.com/public/113895507355510215939/all/form/1FAIpQLScevERWDOtssGc-lK2nrYQtjTToP2xmdaWPmq_GwvWvEdTHbw" target="_blank" title="Share Your Voice">
                 <StatsLogo fill={fill} /></a></LogoLink2>
               <SharePageButton  />
               <DarkModeToggle />
