@@ -64,7 +64,7 @@ const Hero = styled.div`
       content: "";
       width: 100%;
       height: 20px;
-      background: ${p.theme.colors.primary};
+      background: #111216;
       position: absolute;
       left: 0;
       top: 0;

@@ -60,7 +60,7 @@ const MDX: React.FC<MDXProps> = ({ content, headings, children, ...props }) => {
         <MDXBody>
           <MDXRenderer
             headings={headings}
-            isDark={colorMode === 'dark'}
+            isDark={colorMode === 'light'}
             {...props}
           >
             {content}

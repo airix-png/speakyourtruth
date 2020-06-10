@@ -30,17 +30,17 @@ const siteQuery = graphql`
 
 const DarkModeToggle: React.FC<{}> = () => {
   const [colorMode, setColorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
+  const isDark = colorMode === `light`;
 
   function toggleColorMode(event) {
     event.preventDefault();
-    setColorMode(isDark ? `light` : `dark`);
+    setColorMode(isDark ? `dark` : `light`);
 
     //Change all KaTeX colors
     if (typeof document !== `undefined`) {
       Array.from(document.getElementsByClassName('katex-display')).forEach(
         (element) => {
-          element.style.color = isDark ? 'white' : 'black';
+          element.style.color = isDark ? 'black' : 'white';
         },
       );
     }
@@ -51,8 +51,8 @@ const DarkModeToggle: React.FC<{}> = () => {
       isDark={isDark}
       onClick={toggleColorMode}
       data-a11y="false"
-      aria-label={isDark ? 'Activate light mode' : 'Activate dark mode'}
-      title={isDark ? 'Activate light mode' : 'Activate dark mode'}
+      aria-label={isDark ? 'Activate dark mode' : 'Activate light mode'}
+      title={isDark ? 'Activate dark mode' : 'Activate light mode'}
     >
       <MoonOrSun isDark={isDark} />
       <MoonMask isDark={isDark} />
@@ -64,7 +64,7 @@ const SharePageButton: React.FC<{}> = () => {
   const [hasCopied, setHasCopied] = useState<boolean>(false);
   const [colorMode] = useColorMode();
   const isDark = colorMode === `dark`;
-  const fill = isDark ? '#fff' : '#000';
+  const fill = isDark ? '#000' : '#fff';
 
   function copyToClipboardOnClick() {
     if (hasCopied) return;
@@ -76,6 +76,7 @@ const SharePageButton: React.FC<{}> = () => {
       setHasCopied(false);
     }, 1000);
   }
+  
 
   return (
     <IconWrapper
@@ -157,7 +158,7 @@ const NavigationHeader: React.FC<{}> = () => {
                 <LogoLink2>
                 <a href="https://forms.gle/dHhcippCB7kGT83S6" target="_blank" title="Share Your Voice">
                 <StatsLogo fill={fill} /></a></LogoLink2>
-              <SharePageButton />
+              <SharePageButton  />
               <DarkModeToggle />
             </>
           )}
@@ -168,6 +169,7 @@ const NavigationHeader: React.FC<{}> = () => {
 };
 
 export default NavigationHeader;
+
 
 const BackArrowIconContainer = styled.div`
   transition: 0.2s transform var(--ease-out-quad);
@@ -326,8 +328,8 @@ const NavControls = styled.div`
 const ToolTip = styled.div<{ isDark: boolean; hasCopied: boolean }>`
   position: absolute;
   padding: 4px 13px;
-  background: ${(p) => (p.isDark ? '#000' : 'rgba(0,0,0,0.1)')};
-  color: ${(p) => (p.isDark ? '#fff' : '#000')};
+  background: ${(p) => (p.isDark ? 'rgba(0,0,0,0.1)' : '#000' )};
+  color: ${(p) => (p.isDark ? '#000' : '#fff')};
   border-radius: 5px;
   font-size: 14px;
   top: -35px;
@@ -346,11 +348,11 @@ const ToolTip = styled.div<{ isDark: boolean; hasCopied: boolean }>`
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid ${(p) => (p.isDark ? '#000' : 'rgba(0,0,0,0.1)')};
+    border-top: 6px solid ${(p) => (p.isDark ? 'rgba(0,0,0,0.1)' : '#000'  )};
   }
 `;
 
-const IconWrapper = styled.button<{ isDark: boolean }>`
+const IconWrapper = styled.button<{ isDark: false}>`
   opacity: 0.5;
   position: relative;
   border-radius: 5px;

@@ -41,11 +41,11 @@ const ShareDarkModeOnIcon: React.FC<{}> = () => (
 
 const DarkModeToggle: React.FC<{}> = () => {
   const [colorMode, setColorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
+  const isDark = colorMode === `light`;
 
   function toggleColorMode(event) {
     event.preventDefault();
-    setColorMode(isDark ? `light` : `dark`);
+    setColorMode(isDark ? `dark` : `light`);
 
     //Change all KaTeX colors
     if (typeof document !== `undefined`) {
@@ -71,7 +71,7 @@ const DarkModeToggle: React.FC<{}> = () => {
 const SharePageButton: React.FC<{}> = () => {
   const [hasCopied, setHasCopied] = useState<boolean>(false);
   const [colorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
+  const isDark = colorMode === `light`;
 
   function copyToClipboardOnClick() {
     if (hasCopied) return;
@@ -120,8 +120,8 @@ const NavControls = styled.div`
 const ToolTip = styled.div<{ isDark: boolean; hasCopied: boolean }>`
   position: absolute;
   padding: 4px 13px;
-  background: ${(p) => (p.isDark ? '#000' : 'rgba(0,0,0,0.1)')};
-  color: ${(p) => (p.isDark ? '#fff' : '#000')};
+  background: ${(p) => (p.isDark ? 'rgba(0,0,0,0.1)' : '#000')};
+  color: ${(p) => (p.isDark ? '#fff' : '#000' )};
   border-radius: 5px;
   font-size: 14px;
   top: -35px;
@@ -140,7 +140,7 @@ const ToolTip = styled.div<{ isDark: boolean; hasCopied: boolean }>`
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid ${(p) => (p.isDark ? '#000' : 'rgba(0,0,0,0.1)')};
+    border-top: 6px solid ${(p) => (p.isDark ? 'rgba(0,0,0,0.1)' : '#000')};
   }
 `;
 

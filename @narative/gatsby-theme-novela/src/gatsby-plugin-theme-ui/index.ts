@@ -24,7 +24,7 @@ const colorModeTransition =
   'background 0.25s var(--ease-in-out-quad), color 0.25s var(--ease-in-out-quad)';
 
 export default merge({
-  initialColorModeName: 'dark',
+  initialColorModeName: 'light',
   useColorSchemeMediaQuery: true,
   useCustomProperties: true,
   colorModeTransition,

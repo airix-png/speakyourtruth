@@ -247,6 +247,10 @@ export const globalStyles = css`
     }
   }
 
+  .hoverred:hover {
+    fill: #e45e4d
+  }
+
   img.Image__Zoom ~ div {
     background: transparent !important;
   }
