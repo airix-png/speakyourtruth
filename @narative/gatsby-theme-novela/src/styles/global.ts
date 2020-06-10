@@ -232,7 +232,10 @@ export const globalStyles = css`
   opacity: 1 !important;
   }
   
-
+.logo {
+  max-height: 140px; 
+  max-width: 100%;
+}
   input {
     &:focus,
     &:active {
