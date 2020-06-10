@@ -131,7 +131,7 @@ const Article: Template = ({ data, pageContext, location }) => {
       </div>
       {!article.secret && next.length > 0 && (
         <NextArticle narrow>
-          <FooterNext>More articles from {name}</FooterNext>
+          <FooterNext>More articles from other VOICES</FooterNext>
           <ArticlesNext articles={next} />
           <FooterSpacer />
         </NextArticle>
