@@ -7,7 +7,7 @@ require('dotenv').config({
 
 const siteMetadata = {
   title: `Speak Your Truth`,
-    name: `PNG x Yonko Productions`,
+    name: `PNG x YONKO Productions`,
     siteUrl: `https://speakyourtruth.me`,
     description: `A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.`,
     hero: {
