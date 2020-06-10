@@ -95,7 +95,7 @@ const SEO: React.FC<HelmetProps> = ({
   }
 
   // If no image is provided lets looks for a default novela static image
-  image = image ? image : '/preview.jpg';
+  image = image ? './theme.jpg' : image ;
 
   const metaTags = [
     { charset: 'utf-8' },
