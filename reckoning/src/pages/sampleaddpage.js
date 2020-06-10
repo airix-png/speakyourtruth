@@ -29,7 +29,7 @@ const Progress = styled.div`
     content: attr(data-label);
     font-size: 1.2em;
     font-weight: bold;
-    color: ${p => p.theme.colors.primary};
+    color: ${p => p.theme.colors.primary}; 
     position: absolute;
     text-align: center;
     top: -1px;
