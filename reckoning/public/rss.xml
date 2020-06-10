@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 10 Jun 2020 15:09:50 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[To Whom It May Concern:]]></title><description><![CDATA[Speak your truth, even if your voice shakes.]]></description><link>https://speakyourtruth.me/to-you</link><guid isPermaLink="false">https://speakyourtruth.me/to-you</guid><dc:creator><![CDATA[Speak Your Truth]]></dc:creator><pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 10 Jun 2020 16:00:05 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[13th Facts and Takeaways]]></title><description><![CDATA[A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.]]></description><link>https://speakyourtruth.me/13th</link><guid isPermaLink="false">https://speakyourtruth.me/13th</guid><dc:creator><![CDATA[Hanako Ohashi]]></dc:creator><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;13th Facts and Takeaways&quot;,
+  &quot;excerpt&quot;: &quot;A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.&quot;,
+  &quot;date&quot;: &quot;2020-06-10T00:00:00.000Z&quot;,
+  &quot;author&quot;: &quot;Hanako Ohashi&quot;,
+  &quot;tags&quot;: [&quot;BLM&quot;, &quot;Resouces&quot;, &quot;Education&quot;, &quot;Film Review&quot;],
+  &quot;slug&quot;: &quot;13th&quot;,
+  &quot;hero&quot;: &quot;./images/13thbanner.png&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;custom-block tldr&quot;
+  }, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;custom-block-heading&quot;
+  }), &quot;Quick facts and takeaways: &quot;), mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;custom-block-body&quot;
+  }), mdx(&quot;ul&quot;, {
+    parentName: &quot;div&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A Netflix original documentary, &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;\u201813th\u2019&quot;), &quot; directed by &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Ava Duvernay&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The United States is home to 5% of the world\u2019s population, but &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;25% of the world\u2019s prisoners&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The 13th amendment in the U.S. constitution makes it &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;UNCONSTITUTIONAL&quot;), &quot; for anyone to be held as a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;slave&quot;), &quot;, except as punishment for crime.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Educating ourselves on these issues is so important&quot;), &quot; in order to ensure that the current movmeent will not become a short-lived trend. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;\u201813th\u2019 is available on &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://netflix.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;netflix&quot;), &quot; and for free on &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.youtube.com/watch?v=krfcq5pF8u8&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;youtube&quot;))))), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;a-compilation-of-some-facts-and-takeaways&quot;
+  }, &quot;A compilation of some facts and takeaways&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, mdx(&quot;em&quot;, {
+    parentName: &quot;em&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;em&quot;
+  }, &quot;\u201813th\u2019&quot;), &quot; directed by &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;em&quot;
+  }, &quot;Ava DuVernay&quot;)))), mdx(&quot;p&quot;, null, &quot;I noticed that a lot of people had not seen this documentary yet despite it going around as a resource, so I figured laying out the info like this could be useful. While I highly recommend watching the whole film, I realize that many people may not be able to give it the time, or some parts of it may be traumatizing, triggering, or too upsetting for some to sit through. This compilation is really just scratching the surface of what is stated in the film, but it\u2019s a start! And if you\u2019ve seen it already, I hope this is helpful in keeping the information fresh in your mind.&quot;), mdx(&quot;p&quot;, null, &quot;As with every documentary, \u201813th\u2019 has its own narrative and may at times be factually biased, but it nonetheless gives a substantial amount of insight into the many issues in the U.S. criminal justice system. It\u2019s also very visually, sonically, and emotionally engaging, so it\u2019s worth watching for its craft in filmmaking as well!&quot;), mdx(&quot;p&quot;, null, &quot;In addition to Netflix, \u201813th\u2019 is also available for free on YouTube. I\u2019ve linked it in my bio!&quot;), mdx(&quot;p&quot;, null, &quot;And please feel free to share these graphics with anyone who may find it useful!\nEducating ourselves on these issues is so important in order to ensure that the current movement will not become a short-lived trend. Having a true understanding of the history and root problems allows us to figure out effective solutions and move towards real, lasting change. \u2764\uFE0F&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Container&quot;
+  }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__left&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591804206/13th-1_zgvavu.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__right&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591804207/13th-2_ytknjl.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[To Whom It May Concern:]]></title><description><![CDATA[Speak your truth, even if your voice shakes.]]></description><link>https://speakyourtruth.me/to-you</link><guid isPermaLink="false">https://speakyourtruth.me/to-you</guid><dc:creator><![CDATA[Speak Your Truth]]></dc:creator><pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 

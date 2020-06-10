@@ -34,3 +34,9 @@
 
 
 
+- name: Hanako Ohashi
+  bio: | 
+    PNG Team
+  avatar: ./avatars/textlogohd.jpg
+  social: 
+    - url: https://instagram.com/hanakoohashi
