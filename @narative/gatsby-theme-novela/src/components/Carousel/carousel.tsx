@@ -47,12 +47,12 @@ class SimpleSlider extends React.Component {
         <div>
         <a href="https://speakyourtruth.shop" target="_blank">
                 <img alt="SpeakYourTruth Shirt" src="sytbanner.png" target="_blank" width="100%"></img></a>
-                <p className="rozette"> <a href="http://instagram.com/rozettewhiteside" target="_blank">Buy Here</a></p><br/>
+                <p className="rozette"> <a href="https://speakyourtruth.shop" target="_blank">Buy Here</a></p><br/>
 
         </div>
       
         <div>
-        <a href="https://speakyourtruth.shop" target="_blank">
+        <a href="https://speakyourtruth.me/to-you" target="_blank">
                 <img alt="SpeakYourTruth" src="sytprintheader.png" target="_blank" width="100%"></img></a>
                 
                 <p className="rozette">Design + Illustration - <a href="http://instagram.com/rozettewhiteside" target="_blank">Rozette Whiteside </a> + <a href="http://instagram.com/g.j.acuna" target="_blank">G.J. Acuna </a></p><br/>
@@ -65,12 +65,7 @@ class SimpleSlider extends React.Component {
                 <p className="rozette"><a href="http://instagram.com/passionnurturesgrowth" target="_blank">Passion Nurtures Growth </a> x <a href="http://instagram.com/yonkosteez" target="_blank">YONKO Productions </a></p><br/>
 
         </div>
-        <div>
-        <a href="https://speakyourtruth.shop" target="_blank">
-                <img alt="SpeakYourTruth Shirt" src="sytbanner.png" target="_blank" width="100%"></img></a>
-                <p className="rozette"> <a href="http://instagram.com/rozettewhiteside" target="_blank">Buy Here</a></p><br/>
-
-        </div>
+        
       </Slider>
     );
   }

@@ -59,7 +59,7 @@ const Footer: React.FC<{}> = () => {
             © {copyrightDate} {name}
           </FooterText>
           <FooterText>
-            Contact us:  <a href="connect@passionnurturesgrowth@gmail.com"><em>connect@passionnurturesgrowth.com </em></a> <strong>| </strong> <a href="yonkoclothing@yahoo.com"><em>yonkoclothing@yahoo.com</em></a>
+            Contact us:  <a href="mailto:connect@passionnurturesgrowth@gmail.com"><em>connect@passionnurturesgrowth.com </em></a> <strong>| </strong> <a href="mailto:yonkoclothing@yahoo.com"><em>yonkoclothing@yahoo.com</em></a>
           </FooterText>
           <div>
             <SocialLinks links={social} />
