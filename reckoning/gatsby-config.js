@@ -9,9 +9,9 @@ const siteMetadata = {
   title: `Speak Your Truth`,
     name: `PNG x YONKO Productions`,
     siteUrl: `https://speakyourtruth.me`,
-    description: `An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society..`,
+    description: `An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society.`,
     hero: {
-      heading: `An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society.. 
+      heading: `An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society. 
       `,
       maxWidth: 1000,
     },
