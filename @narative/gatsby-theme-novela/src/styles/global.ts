@@ -154,6 +154,7 @@ export const globalStyles = css`
 .rozette {
   position: relative;
   top: 15px;
+  line-height: 1.5;
 }
 .box{
   :global{

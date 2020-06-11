@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 11 Jun 2020 05:57:31 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[13th Facts and Takeaways]]></title><description><![CDATA[A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.]]></description><link>https://speakyourtruth.me/13th</link><guid isPermaLink="false">https://speakyourtruth.me/13th</guid><dc:creator><![CDATA[Hanako Ohashi]]></dc:creator><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[A space for Black communities and Allies to shed light on personal experiences of racial injustice and to reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 11 Jun 2020 10:15:42 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[13th Facts and Takeaways]]></title><description><![CDATA[A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.]]></description><link>https://speakyourtruth.me/13th</link><guid isPermaLink="false">https://speakyourtruth.me/13th</guid><dc:creator><![CDATA[Hanako Ohashi]]></dc:creator><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -33,7 +33,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;p&quot;, null, &quot;Article still in progress: used as an example at the moment&quot;), mdx(&quot;div&quot;, {
+  }), mdx(&quot;div&quot;, {
     &quot;className&quot;: &quot;custom-block tldr&quot;
   }, mdx(&quot;div&quot;, _extends({
     parentName: &quot;div&quot;
@@ -89,7 +89,9 @@ return function MDXContent(_ref) {
     parentName: &quot;em&quot;
   }, &quot;\u201813th\u2019&quot;), &quot; directed by &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;em&quot;
-  }, &quot;Ava DuVernay&quot;)))), mdx(&quot;p&quot;, null, &quot;I noticed that a lot of people had not seen this documentary yet despite it going around as a resource, so I figured laying out the info like this could be useful. While I highly recommend watching the whole film, I realize that many people may not be able to give it the time, or some parts of it may be traumatizing, triggering, or too upsetting for some to sit through. This compilation is really just scratching the surface of what is stated in the film, but it\u2019s a start! And if you\u2019ve seen it already, I hope this is helpful in keeping the information fresh in your mind.&quot;), mdx(&quot;p&quot;, null, &quot;As with every documentary, \u201813th\u2019 has its own narrative and may at times be factually biased, but it nonetheless gives a substantial amount of insight into the many issues in the U.S. criminal justice system. It\u2019s also very visually, sonically, and emotionally engaging, so it\u2019s worth watching for its craft in filmmaking as well!&quot;), mdx(&quot;p&quot;, null, &quot;In addition to Netflix, \u201813th\u2019 is also available for free on YouTube. I\u2019ve linked it in my bio!&quot;), mdx(&quot;p&quot;, null, &quot;And please feel free to share these graphics with anyone who may find it useful!\nEducating ourselves on these issues is so important in order to ensure that the current movement will not become a short-lived trend. Having a true understanding of the history and root problems allows us to figure out effective solutions and move towards real, lasting change. \u2764\uFE0F&quot;), mdx(&quot;div&quot;, {
+  }, &quot;Ava DuVernay&quot;)))), mdx(&quot;p&quot;, null, &quot;I noticed that a lot of people had not seen this documentary yet despite it going around as a resource, so I figured laying out the info like this could be useful. While I highly recommend watching the whole film, I realize that many people may not be able to give it the time, or some parts of it may be traumatizing, triggering, or too upsetting for some to sit through. This compilation is really just scratching the surface of what is stated in the film, but it\u2019s a start! And if you\u2019ve seen it already, I hope this is helpful in keeping the information fresh in your mind.&quot;), mdx(&quot;p&quot;, null, &quot;As with every documentary, \u201813th\u2019 has its own narrative and may at times be factually biased, but it nonetheless gives a substantial amount of insight into the many issues in the U.S. criminal justice system. It\u2019s also very visually, sonically, and emotionally engaging, so it\u2019s worth watching for its craft in filmmaking as well!&quot;), mdx(&quot;p&quot;, null, &quot;In addition to Netflix, \u201813th\u2019 is also available for free on YouTube. Links above in the key points box! &quot;), mdx(&quot;p&quot;, null, &quot;And please feel free to share these graphics with anyone who may find it useful!&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Educating ourselves on these issues is so important in order to ensure that the current movement will not become a short-lived trend.&quot;), &quot;\nHaving a true understanding of the history and root problems allows us to figure out effective solutions and move towards real, lasting change. \u2764\uFE0F&quot;), mdx(&quot;div&quot;, {
     &quot;className&quot;: &quot;Image__Container&quot;
   }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
     parentName: &quot;div&quot;
@@ -102,7 +104,7 @@ return function MDXContent(_ref) {
   }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
     parentName: &quot;div&quot;
   }, {
-    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591804206/13th-1_zgvavu.jpg&quot;
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869817/103604229_3041140239312457_3923523357771484451_n_1_b9sajk.jpg&quot;
   })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
     parentName: &quot;div&quot;
   }, {
@@ -114,8 +116,112 @@ return function MDXContent(_ref) {
   }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
     parentName: &quot;div&quot;
   }, {
-    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591804207/13th-2_ytknjl.jpg&quot;
-  })), &quot;\n    &quot;), &quot;\n  &quot;)));
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869816/103292820_2371358142966872_8744106909793533475_n_1_hmbfo1.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;undefined&quot;, null, mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Container&quot;
+  }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__left&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869818/104227827_3391075214276481_7912957796566249383_n_t5vkki.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__right&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869816/103104219_559898461631525_4419428511743925191_n_tatl2e.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Container&quot;
+  }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__left&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869814/104199792_301222631040827_4313954710815784498_n_xaob3k.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__right&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869813/104126133_187748372564780_4176771624519536554_n_za0spx.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Container&quot;
+  }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__left&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869817/103322224_674417859790347_6217284265757576825_n_jfzzac.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__right&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869814/103344690_846158192460386_7441819263661496752_n_rh4j0s.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Container&quot;
+  }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__left&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869815/103364011_351492982488714_4049769968203336926_n_suasev.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;), &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Container__right&quot;
+  }), &quot;\n    &quot;, mdx(&quot;div&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }), &quot;\n      &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;src&quot;: &quot;https://res.cloudinary.com/dqdjvulmw/image/upload/v1591869816/103595746_1506463812865200_5861124757730856031_n_iaohqr.jpg&quot;
+  })), &quot;\n    &quot;), &quot;\n  &quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[To Whom It May Concern:]]></title><description><![CDATA[Speak your truth, even if your voice shakes.]]></description><link>https://speakyourtruth.me/to-you</link><guid isPermaLink="false">https://speakyourtruth.me/to-you</guid><dc:creator><![CDATA[Speak Your Truth]]></dc:creator><pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -199,17 +305,17 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
-  }, &quot;Voices Blog&quot;), &quot; : &quot;, mdx(&quot;a&quot;, _extends({
+  }, &quot;SYT Blog&quot;), &quot; : &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
-    &quot;href&quot;: &quot;https://forms.gle/WbpSWDX6LUB5g8q89&quot;,
+    &quot;href&quot;: &quot;https://formfacade.com/public/113895507355510215939/all/form/1FAIpQLScevERWDOtssGc-lK2nrYQtjTToP2xmdaWPmq_GwvWvEdTHbw&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;form for submissions here&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
-  }, &quot;Speak Your Truth&quot;), &quot; &quot;, mdx(&quot;a&quot;, _extends({
+  }, &quot;SYT&quot;), &quot; &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
     &quot;href&quot;: &quot;https://speakyourtruth.shop&quot;,
@@ -217,7 +323,37 @@ return function MDXContent(_ref) {
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), mdx(&quot;strong&quot;, {
     parentName: &quot;a&quot;
-  }, &quot;Shirt&quot;)), &quot; : 100% of proceeds will be donated to a BLM Org and our SYT black creative fund &quot;)))))), mdx(&quot;h2&quot;, {
+  }, &quot;Shirt&quot;)), &quot; : 100% of proceeds will be donated to &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.formyblock.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My Block My Hood My City&quot;), &quot; and our SYT black artist grant fund. &quot;)))))), mdx(&quot;p&quot;, null, &quot;Throughout recent weeks, we have come to realize that the current events and uprising of frustrations are not merely a trend but a call to action. *(As a society we have failed the black community.) It is our duty to seek justice for those unfairly treated and unspoken for; to make change, starting within ourselves, our communities, and eventually the world as a whole.    &quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://instagram.com/passionnurturesgrowth&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;PNG&quot;), &quot; &amp; &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://instagram.com/yonkosteez&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;YONKO Productions&quot;), &quot; have come together during this time, to seek a way to create momentum for this movement to continue\u2014 to contribute through our craft. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://speakyourtruth.me&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;speakyourtruth.me&quot;), &quot; is a newborn, online entity that hosts a free platform to share stories, provide education, converse, artfully express, and pitch solutions.  &quot;), mdx(&quot;p&quot;, null, &quot;Half of the proceeds from our shirt sales will be donated to &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.formyblock.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My Block My Hood My City&quot;), &quot;. The other half will be put into a grant fund that will be passed on to a black artist. Once the money has been collected, we will post an application and deadline for this grant.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;to-whom-it-may-concern-syt&quot;
   }, &quot;To Whom It May Concern: SYT&quot;), mdx(&quot;h6&quot;, {
     &quot;id&quot;: &quot;illustration--design-by-rozette-whiteside--gj-acuna&quot;
@@ -267,7 +403,15 @@ return function MDXContent(_ref) {
     parentName: &quot;div&quot;
   }, &quot;\n        &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;figcaption&quot;
-  }, &quot;BACK&quot;), &quot;\n      &quot;), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;div&quot;, {
+  }, &quot;BACK&quot;), &quot;\n      &quot;), &quot;\n    &quot;), &quot;\n  &quot;)), mdx(&quot;h4&quot;, {
+    &quot;id&quot;: &quot;buy-here&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;h4&quot;
+  }, {
+    &quot;href&quot;: &quot;https://speakyourtruth.shop&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;BUY HERE&quot;)), mdx(&quot;div&quot;, {
     &quot;className&quot;: &quot;Image__Container&quot;
   }, &quot;\n  &quot;, mdx(&quot;div&quot;, _extends({
     parentName: &quot;div&quot;
@@ -283,11 +427,7 @@ return function MDXContent(_ref) {
     parentName: &quot;figcaption&quot;
   }, &quot;SPEAK YOUR TRUTH, even if your voice &quot;, mdx(&quot;em&quot;, {
     parentName: &quot;strong&quot;
-  }, &quot;SHAKES&quot;)), &quot;\n      &quot;), &quot;\n  &quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;blm-organization&quot;
-  }, &quot;BLM ORGANIZATION&quot;), mdx(&quot;p&quot;, null, &quot;Info on BLM org we are donating to &quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;syt-black-creative-fund&quot;
-  }, &quot;SYT Black Creative Fund&quot;), mdx(&quot;p&quot;, null, &quot;Info on the fund.\nForm for nominations as well. &quot;));
+  }, &quot;SHAKES&quot;)), &quot;\n      &quot;), &quot;\n  &quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>

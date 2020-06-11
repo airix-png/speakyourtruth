@@ -47,7 +47,6 @@ class SimpleSlider extends React.Component {
         <div>
         <a href="https://speakyourtruth.shop" target="_blank">
                 <img alt="SpeakYourTruth Shirt" src="SYT-Web-Banner.jpeg" target="_blank" width="100%"></img></a>
-                <p className="rozette"> <a href="https://speakyourtruth.shop" target="_blank">Buy Here</a></p><br/>
 
         </div>
       
@@ -55,7 +54,8 @@ class SimpleSlider extends React.Component {
         <a href="https://speakyourtruth.me/to-you" target="_blank">
                 <img alt="SpeakYourTruth" src="sytprintheader.png" target="_blank" width="100%"></img></a>
                 
-                <p className="rozette">Design + Illustration - <a href="http://instagram.com/rozettewhiteside" target="_blank">Rozette Whiteside </a> + <a href="http://instagram.com/g.j.acuna" target="_blank">G.J. Acuna </a></p><br/>
+                <p>Design + Illustration </p>
+                <br/><p className="rozette"> <a href="http://instagram.com/rozettewhiteside" target="_blank">Rozette Whiteside </a> + <a href="http://instagram.com/g.j.acuna" target="_blank">G.J. Acuna </a></p><br/>
 
         </div>
         <div>
