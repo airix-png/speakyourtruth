@@ -46,7 +46,7 @@ class SimpleSlider extends React.Component {
         </div>
         <div>
         <a href="https://speakyourtruth.shop" target="_blank">
-                <img alt="SpeakYourTruth Shirt" src="sytbanner.png" target="_blank" width="100%"></img></a>
+                <img alt="SpeakYourTruth Shirt" src="SYT-Web-Banner.jpeg" target="_blank" width="100%"></img></a>
                 <p className="rozette"> <a href="https://speakyourtruth.shop" target="_blank">Buy Here</a></p><br/>
 
         </div>
@@ -60,7 +60,7 @@ class SimpleSlider extends React.Component {
         </div>
         <div>
         <a href="https://speakyourtruth.shop" target="_blank">
-                <img alt="SpeakYourTruth" src="pngxyonko.png" target="_blank" width="100%"></img></a>
+                <img alt="SpeakYourTruth" src="SYT-Web-Banner-2.jpeg" target="_blank" width="100%"></img></a>
                 
                 <p className="rozette"><a href="http://instagram.com/passionnurturesgrowth" target="_blank">Passion Nurtures Growth </a> x <a href="http://instagram.com/yonkosteez" target="_blank">YONKO Productions </a></p><br/>
 
