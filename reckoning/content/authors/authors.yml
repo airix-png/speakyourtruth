@@ -40,3 +40,10 @@
   avatar: ./avatars/textlogohd.jpg
   social: 
     - url: https://instagram.com/hanakoohashi
+
+- name: Nicholas Joseph
+  bio: | 
+    Community Voice
+  avatar: ./avatars/text.png
+  social: 
+    - url: https://instagram.com/nickjxseph

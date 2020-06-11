@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 11 Jun 2020 17:18:43 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[13th Facts and Takeaways]]></title><description><![CDATA[A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.]]></description><link>https://speakyourtruth.me/13th</link><guid isPermaLink="false">https://speakyourtruth.me/13th</guid><dc:creator><![CDATA[Hanako Ohashi]]></dc:creator><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed!]]></title><description><![CDATA[An open space to shed light on public & personal experiences of racial injustice, discuss, & reflect on the recognition of its impact on society.]]></description><link>https://speakyourtruth.me</link><image><url>https://speakyourtruth.me/icons/icon-512x512.png</url><title>RSS Feed!</title><link>https://speakyourtruth.me</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 11 Jun 2020 22:42:50 GMT</lastBuildDate><atom:link href="https://speakyourtruth.me/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[A Reflection]]></title><description><![CDATA[This week I sat in so much contemplation asking myself an array of questions. Questions that honestly hurt...]]></description><link>https://speakyourtruth.me/a-reflection</link><guid isPermaLink="false">https://speakyourtruth.me/a-reflection</guid><dc:creator><![CDATA[Nicholas Joseph]]></dc:creator><pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;A Reflection&quot;,
+  &quot;excerpt&quot;: &quot;This week I sat in so much contemplation asking myself an array of questions. Questions that honestly hurt...&quot;,
+  &quot;date&quot;: &quot;2020-06-11T00:00:00.000Z&quot;,
+  &quot;author&quot;: &quot;Nicholas Joseph&quot;,
+  &quot;tags&quot;: [&quot;BLM&quot;, &quot;Voices&quot;, &quot;Community&quot;],
+  &quot;slug&quot;: &quot;a-reflection&quot;,
+  &quot;hero&quot;: &quot;./images/reflection.jpg&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;a-reflection--nicholas-joseph&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;h3&quot;
+  }, {
+    &quot;href&quot;: &quot;https://instagram.com/nickjxseph&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, mdx(&quot;em&quot;, {
+    parentName: &quot;strong&quot;
+  }, &quot;A Reflection&quot;)), &quot; | Nicholas Joseph&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;This week I sat in so much contemplation asking myself an array of questions.&quot;), &quot; &quot;), mdx(&quot;p&quot;, null, &quot;Questions that honestly hurt: &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CHow can one willingly disregard life?\u201D&quot;), &quot;, &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CHow can one act as if a life is not valuable?\u201D&quot;), &quot;,  &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CWill I have to mourn a family member?\u201D&quot;), &quot;, and ultimately, &quot;), mdx(&quot;h6&quot;, {
+    &quot;id&quot;: &quot;could-i-be-next&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;h6&quot;
+  }, mdx(&quot;em&quot;, {
+    parentName: &quot;strong&quot;
+  }, &quot;\u201CCould I be next?\u201D&quot;))), mdx(&quot;p&quot;, null, &quot;_&quot;), mdx(&quot;p&quot;, null, &quot;I\u2019ve mourned this week alongside so many others and have experienced a constant flux of emotions. &quot;), mdx(&quot;p&quot;, null, &quot;As a Black American male constantly being reminded of the systematic disadvantages presented to people of my likeness,\nit\u2019s been heart wrenching to bear witness to the atrocities happening.\nHowever, what\u2019s evident within itself is that &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, mdx(&quot;em&quot;, {
+    parentName: &quot;strong&quot;
+  }, &quot;these atrocities are not new.&quot;)), &quot;\nMuch hasn\u2019t changed in the span of more than 400 years.\nAccording to &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://www.visionaryproject.org/bellderrick/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Derrick Bell, American civil rights activist,&quot;), &quot; we hit these \u201CPeaks of Progress\u201D in our fight for justice only for the cause to fade into irrelevance until the next instance of injustice.\nIt\u2019s a constant effort to inform, reform, and educate, sometimes to no avail. &quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;But we can\u2019t let up.&quot;), &quot;  &quot;), mdx(&quot;p&quot;, null, &quot;To clarify, the struggles that we as Black people endure are not limited to the experiences we have with law enforcement,\nbut also the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;day to day misconceptions&quot;), &quot; we face not based on our individual character but on our appearance.\nAs a choreographer that has been blessed to travel, there are many times I\u2019ve had to be hyper-aware of the way I presented myself abroad\nbecause I know what the media says about people that look like me. &quot;), mdx(&quot;p&quot;, null, &quot;I get stares, looks, questions. Some out of innocent curiosity and others in contempt. &quot;), mdx(&quot;p&quot;, null, &quot;Mind you, I maintain this hyper-awareness even while home in the states for obvious reasons.\nIn addition, &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;all my life I\u2019ve endured the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;strong&quot;
+  }, &quot;\u201COreo\u201D&quot;), &quot; stereotype&quot;), &quot; because my interests, experiences and intelligence do not match the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201Cpredominant\u201D&quot;), &quot; and so-called &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201Ccorrect\u201D&quot;), &quot; narrative of a Black American male.\nYou can already see the issue of being caught between two perspectives of how I &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201Cshould\u201D&quot;), &quot; act and be.  &quot;), mdx(&quot;p&quot;, null, &quot;But this much is true, if you don\u2019t know someone then you may make assumptions based on preconceived notions alone.\n&quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;We all do it.&quot;), &quot;\nWe put things in boxes to try to understand them but all too often we do so prematurely.\nAnd when we do this, wrongful labels are assigned and ideologies are formed and go through an endless cycle of transmittal lending to ongoing perceptions rooted in ignorance. &quot;), mdx(&quot;p&quot;, null, &quot;The only thing to combat this ignorance is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;knowledge, open-mindedness, and understanding.&quot;), &quot; &quot;), mdx(&quot;p&quot;, null, &quot;As a Christian, I have been challenged in the midst of all this.\nI questioned the purpose of suffering, why must it be endured so long, and if there is a future for reconciliation.\nBut I\u2019m reminded of a line by the musician, Propaganda, in which he expresses that &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201C\u2026It was a crooked system just like this that left the King of Kings bloodless\u2026\u201D&quot;), &quot;\nand although at the time of Jesus\u2019 crucifixion it seemed injustice prevailed, the plan God had for us to be reconciled to Him was accomplished. &quot;), mdx(&quot;p&quot;, null, &quot;So in this time, I &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pray for&quot;), &quot; and &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;CONTRIBUTE&quot;), &quot; to the hopeful realization of reconciliation amongst ourselves and the systems over us through utilizing &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;my voice, resources and talents.&quot;), &quot; &quot;), mdx(&quot;h5&quot;, {
+    &quot;id&quot;: &quot;i-implore-you-to-do-the-same&quot;
+  }, &quot;I implore you to do the same.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[13th Facts and Takeaways]]></title><description><![CDATA[A visually, sonically, and emotionally engaging documentary that gives a substantial amount of insight into the many issues in the U.S. criminal justice system.]]></description><link>https://speakyourtruth.me/13th</link><guid isPermaLink="false">https://speakyourtruth.me/13th</guid><dc:creator><![CDATA[Hanako Ohashi]]></dc:creator><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -236,7 +338,7 @@ var _frontmatter = {
   &quot;excerpt&quot;: &quot;Speak your truth, even if your voice shakes.&quot;,
   &quot;date&quot;: &quot;2020-06-09T00:00:00.000Z&quot;,
   &quot;author&quot;: &quot;Speak Your Truth&quot;,
-  &quot;tags&quot;: [&quot;BLM&quot;, &quot;Voices&quot;, &quot;Community&quot;],
+  &quot;tags&quot;: [&quot;BLM&quot;, &quot;Voices&quot;, &quot;PNG&quot;, &quot;Yonko&quot;],
   &quot;slug&quot;: &quot;to-you&quot;,
   &quot;hero&quot;: &quot;./images/theme.jpg&quot;
 };
@@ -329,7 +431,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://www.formyblock.org/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;My Block My Hood My City&quot;), &quot; and our SYT black artist grant fund. &quot;)))))), mdx(&quot;p&quot;, null, &quot;Throughout recent weeks, we have come to realize that the current events and uprising of frustrations are not merely a trend but a call to action. *(As a society we have failed the black community.) It is our duty to seek justice for those unfairly treated and unspoken for; to make change, starting within ourselves, our communities, and eventually the world as a whole.    &quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+  }), &quot;My Block My Hood My City&quot;), &quot; and our SYT black artist grant fund. &quot;)))))), mdx(&quot;p&quot;, null, &quot;Throughout recent weeks, we have come to realize that the current events and uprising of frustrations are not merely a trend\nbut a call to action. As a society we have failed the black community.\nIt is our duty to seek justice for those unfairly treated and unspoken for; to make change,\nstarting within ourselves, our communities, and eventually the world as a whole.    &quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://instagram.com/passionnurturesgrowth&quot;,
@@ -341,13 +443,15 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://instagram.com/yonkosteez&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;YONKO Productions&quot;), &quot; have come together during this time, to seek a way to create momentum for this movement to continue\u2014 to contribute through our craft. &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;YONKO Productions&quot;), &quot;\nhave come together during this time, to seek a way to create momentum for this movement to continue\u2014 to contribute through our craft.\n&quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://speakyourtruth.me&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;speakyourtruth.me&quot;), &quot; is a newborn, online entity that hosts a free platform to share stories, provide education, converse, artfully express, and pitch solutions.  &quot;), mdx(&quot;p&quot;, null, &quot;Half of the proceeds from our shirt sales will be donated to &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;speakyourtruth.me&quot;), &quot; is a virtual space to &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;share stories, provide education, converse, express, and PITCH SOLUTIONS.&quot;)), mdx(&quot;p&quot;, null, &quot;Half of the proceeds from our shirt sales will be donated to &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://www.formyblock.org/&quot;,
