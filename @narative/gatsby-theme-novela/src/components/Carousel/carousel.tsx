@@ -32,18 +32,15 @@ class SimpleSlider extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       swipetoslide:true,
+      autoplay: true, 
+      autoplaySpeed:4000,
+
+
     };
 
 
     return (
       <Slider ref={slider => (this.slider = slider)} {...settings}>
-        <div>
-          <Video
-        videoSrcURL="https://www.youtube.com/embed/rtTIx9vG4CM" 
-        videoTitle="No Justice, No Peace by New Pixel Films"
-      />
-      <p className="newpixel">'No Justice, No Peace' - <a href="http://instagram.com/newpixelfilms" target="_blank">New Pixel Films</a></p><br/>
-        </div>
         <div>
         <a href="https://speakyourtruth.shop" target="_blank">
                 <img alt="SpeakYourTruth Shirt" src="SYT-Web-Banner.jpeg" target="_blank" width="100%"></img></a>
@@ -64,6 +61,13 @@ class SimpleSlider extends React.Component {
                 
                 <p className="rozette"><a href="http://instagram.com/passionnurturesgrowth" target="_blank">Passion Nurtures Growth </a> x <a href="http://instagram.com/yonkosteez" target="_blank">YONKO Productions </a></p><br/>
 
+        </div>
+        <div>
+          <Video
+        videoSrcURL="https://www.youtube.com/embed/rtTIx9vG4CM" 
+        videoTitle="No Justice, No Peace by New Pixel Films"
+      />
+      <p className="newpixel">'No Justice, No Peace' - <a href="http://instagram.com/newpixelfilms" target="_blank">New Pixel Films</a></p><br/>
         </div>
         
       </Slider>

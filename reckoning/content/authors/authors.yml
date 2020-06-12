@@ -47,3 +47,11 @@
   avatar: ./avatars/text.png
   social: 
     - url: https://instagram.com/nickjxseph
+
+  
+- name: Anonymous
+  bio: | 
+    Anonymous Voice
+  avatar: ./avatars/text.png
+  social: 
+    - url: https://instagram.com/
